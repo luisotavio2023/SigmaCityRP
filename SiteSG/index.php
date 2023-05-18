@@ -26,7 +26,7 @@
       </ul>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">Logar</button>
+        <button type="button" class="btn btn-outline-primary me-2" onclick="window.location.href = 'painelloginreg.php';">Logar</button>
         <button type="button" class="btn btn-primary">Registra-se</button>
       </div>
     </header>
