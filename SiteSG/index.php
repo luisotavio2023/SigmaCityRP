@@ -21,13 +21,13 @@
         <li><a href="#" class="nav-link px-2 link-secondary">Início</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Notícias</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Discord</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Reclame aqui</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Tste</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Regras servidor</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Equipe Staff</a></li>
       </ul>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">Login</button>
-        <button type="button" class="btn btn-primary">Sign-up</button>
+        <button type="button" class="btn btn-outline-primary me-2">Logar</button>
+        <button type="button" class="btn btn-primary">Registra-se</button>
       </div>
     </header>
     <div id="wrapper">
@@ -54,7 +54,7 @@
       <li><a href="#awards">Financeiro</a></li>
       </ul>
       </li>
-      <li><a href="#services"></a></li>
+      <li><a href="#services">Leis RP</a></li>
       <li><a href="#contact">Youtubers do servidor</a></li>
       <li><a href="#followme">Redes sociais</a></li>
       </ul>
