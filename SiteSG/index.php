@@ -48,7 +48,7 @@
      <ul class="dropdown-menu animated fadeInLeft" role="menu">
       <div class="dropdown-header">Painel de controle</div>
       <li><a href="#pictures">Avisos</a></li>
-      <li><a href="#videos">Perfil</a></li>
+      <li><a href="perfil.php">Perfil</a></li>
       <li><a href="#books">Membros</a></li>
       <li><a href="#art">Adicionais a venda</a></li>
       <li><a href="#awards">Financeiro</a></li>
