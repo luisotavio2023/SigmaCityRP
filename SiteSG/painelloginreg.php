@@ -32,7 +32,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title">Seja bem vindo(a)</h2>
-                        <form>
+                        <form method="post" action="verificar.php">
                             <div class="form-group">
                                 <label for="username">Usuário</label>
                                 <input type="text" class="form-control" id="username" name="username" required>

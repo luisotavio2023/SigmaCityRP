@@ -12,17 +12,17 @@
   </head>
   <body>
   <div class="container">
-    <header class="d-flex flex-wrap d-flex w-100 align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+  <header class="d-flex flex-wrap d-flex w-100 align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Início</a></li>
+        <li><a href="indexphp" class="nav-link px-2 link-secondary">Início</a></li>
         <li><a href="loja.php" class="nav-link px-2 link-dark">Loja do servidor</a></li>
         <li><a href="https://discord.gg/eeqn7gJpTT" class="nav-link px-2 link-dark">Discord</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Regras servidor</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Equipe Staff</a></li>
+        <li><a href="regras.php" class="nav-link px-2 link-dark">Regras servidor</a></li>
+        <li><a href="staff.php" class="nav-link px-2 link-dark">Equipe Staff</a></li>
       </ul>
 
       <div class="col-md-3 text-end">
@@ -39,10 +39,10 @@
        <div class="sidebar-header">
        <div class="sidebar-brand">
          <a href="#">Sigma City</a></div></div>
-       <li><a href="#home">Home</a></li>
-       <li><a href="#about">Sobre</a></li>
-       <li><a href="#events">Eventos</a></li>
-       <li><a href="#team">Fale conosco</a></li>
+       <li><a href="forminscricao.php">Trabalhe conosco/Seja staff</a></li>
+       <li><a href="sobre.php">Sobre</a></li>
+       <li><a href="eventos.php">Eventos</a></li>
+       <li><a href="faleconosco.php">Fale conosco</a></li>
        <li class="dropdown">
        <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"> <span class="caret"></span></a>
      <ul class="dropdown-menu animated fadeInLeft" role="menu">
@@ -50,11 +50,11 @@
       <li><a href="#pictures">Avisos</a></li>
       <li><a href="perfil.php">Perfil</a></li>
       <li><a href="#books">Membros</a></li>
-      <li><a href="#art">Adicionais a venda</a></li>
+      <li><a href="lojaadd.php">Adicionais a venda</a></li>
       <li><a href="#awards">Financeiro</a></li>
       </ul>
       </li>
-      <li><a href="#services">Leis RP</a></li>
+      <li><a href="leisrp.php">Leis RP</a></li>
       <li><a href="#contact">Youtubers do servidor</a></li>
       <li><a href="#followme">Redes sociais</a></li>
       </ul>

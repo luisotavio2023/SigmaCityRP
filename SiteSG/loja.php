@@ -19,7 +19,7 @@
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><a href="#" class="nav-link px-2 link-secondary">Início</a></li>
         <li><a href="loja.php" class="nav-link px-2 link-dark">Loja do servidor</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Discord</a></li>
+        <li><a href="https://discord.gg/eeqn7gJpTT" class="nav-link px-2 link-dark">Discord</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Regras servidor</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Equipe Staff</a></li>
       </ul>
@@ -53,7 +53,7 @@
       <li><a href="#awards">Financeiro</a></li>
       </ul>
       </li>
-      <li><a href="#services">Leis RP</a></li>
+      <li><a href="leisrp.php">Leis RP</a></li>
       <li><a href="#contact">Youtubers do servidor</a></li>
       <li><a href="#followme">Redes sociais</a></li>
       </ul>
