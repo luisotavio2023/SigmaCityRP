@@ -96,7 +96,7 @@
       </li>
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="foto2.jpg" alt="Foto 2" class="rounded-circle me-3" width="50" height="50">
+          <img src="images/fotoSperfil.png" alt="Foto 2" class="rounded-circle me-3" width="50" height="50">
           <div>
             <h5 class="mb-1">Silva</h5>
             <p class="mb-0">Const 4444 = require('Jhin')#6335</p>
@@ -135,31 +135,41 @@
     <ul class="list-group">
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="foto1.jpg" alt="Foto 1" class="rounded-circle me-3" width="50" height="50">
+          <img src="images/fotoSperfil.png" alt="Ícone de perfil do Silva" class="rounded-circle me-3" width="50" height="50">
           <div>
-            <h5 class="mb-1">Nome 1</h5>
-            <p class="mb-0">email1@example.com</p>
-            <p class="mb-0">Cargo: N/A</p>
+            <h5 class="mb-1">Silva</h5>
+            <p class="mb-0">Const 4444 = require('Jhin')#6335</p>
+            <p class="mb-0">Cargo: Scripter</p>
           </div>
         </div>
       </li>
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="foto2.jpg" alt="Foto 2" class="rounded-circle me-3" width="50" height="50">
+          <img src="images/FotoKperfil.png" alt="Ícone de perfil do Kiing" class="rounded-circle me-3" width="50" height="50">
           <div>
-            <h5 class="mb-1">Nome 2</h5>
-            <p class="mb-0">email2@example.com</p>
-            <p class="mb-0">Cargo: N/A</p>
+            <h5 class="mb-1">Kiing</h5>
+            <p class="mb-0">KIING#9754</p>
+            <p class="mb-0">Cargo: Skin Maker</p>
           </div>
         </div>
       </li>
       <!-- Adicione mais itens conforme necessário -->
       <li class="list-group-item">
         <div class="d-flex align-items-center">
+          <img src="foto2.jpg" alt="Ícone de perfil do Orlandin" class="rounded-circle me-3" width="50" height="50">
+          <div>
+            <h5 class="mb-1">Orlandin</h5>
+            <p class="mb-0">Orlandin#2214</p>
+            <p class="mb-0">Cargo: Scripter</p>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="d-flex align-items-center">
           <img src="foto2.jpg" alt="Foto 2" class="rounded-circle me-3" width="50" height="50">
           <div>
-            <h5 class="mb-1">Nome 3</h5>
-            <p class="mb-0">email2@example.com</p>
+            <h5 class="mb-1">N/A</h5>
+            <p class="mb-0">N/A</p>
             <p class="mb-0">Cargo: N/A</p>
           </div>
         </div>
@@ -168,18 +178,8 @@
         <div class="d-flex align-items-center">
           <img src="foto2.jpg" alt="Foto 2" class="rounded-circle me-3" width="50" height="50">
           <div>
-            <h5 class="mb-1">Nome 4</h5>
-            <p class="mb-0">email2@example.com</p>
-            <p class="mb-0">Cargo: N/A</p>
-          </div>
-        </div>
-      </li>
-      <li class="list-group-item">
-        <div class="d-flex align-items-center">
-          <img src="foto2.jpg" alt="Foto 2" class="rounded-circle me-3" width="50" height="50">
-          <div>
-            <h5 class="mb-1">Nome 5</h5>
-            <p class="mb-0">email2@example.com</p>
+            <h5 class="mb-1">N/A</h5>
+            <p class="mb-0">N/A</p>
             <p class="mb-0">Cargo: N/A</p>
           </div>
         </div>
