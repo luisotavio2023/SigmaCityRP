@@ -87,7 +87,7 @@
     <ul class="list-group">
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="foto1.jpg" alt="Foto 1" class="rounded-circle me-3" width="50" height="50">
+          <img src="images/FotoLperfil.png" alt="Foto 1" class="rounded-circle me-3" width="50" height="50">
           <div>
             <h5 class="mb-1">Luis Otávio</h5>
             <p class="mb-0">Luis Otávio#4699</p>
@@ -96,7 +96,7 @@
       </li>
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="images/fotoSperfil.png" alt="Foto 2" class="rounded-circle me-3" width="50" height="50">
+          <img src="images/fotoSperfil.png" alt="Foto 2" class="rounded-circle me-3" width="45" height="45">
           <div>
             <h5 class="mb-1">Silva</h5>
             <p class="mb-0">Const 4444 = require('Jhin')#6335</p>
