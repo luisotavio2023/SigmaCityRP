@@ -27,8 +27,8 @@
         <li><a href="index.php" class="nav-link px-2 link-secondary">Início</a></li>
         <li><a href="loja.php" class="nav-link px-2 link-dark">Loja do servidor</a></li>
         <li><a href="https://discord.gg/eeqn7gJpTT" class="nav-link px-2 link-dark">Discord</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Regras servidor</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Equipe Staff</a></li>
+        <li><a href="regras.php" class="nav-link px-2 link-dark">Regras servidor</a></li>
+        <li><a href="staff.php" class="nav-link px-2 link-dark">Equipe Staff</a></li>
       </ul>
 
       <div class="col-md-3 text-end">
@@ -44,7 +44,7 @@
      <ul class="nav sidebar-nav">
        <div class="sidebar-header">
        <div class="sidebar-brand">
-         <a href="#">Sigma City</a></div></div>
+         <a href="index.php">Sigma City</a></div></div>
        <li><a href="forminscricao.php">Trabalhe conosco/Seja staff</a></li>
        <li><a href="sobre.php">Sobre</a></li>
        <li><a href="eventos.php">Eventos</a></li>
@@ -53,7 +53,7 @@
        <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"> <span class="caret"></span></a>
      <ul class="dropdown-menu animated fadeInLeft" role="menu">
       <div class="dropdown-header">Painel de controle</div>
-      <li><a href="#pictures">Avisos</a></li>
+      <li><a href="avisos.php">Avisos</a></li>
       <li><a href="perfil.php">Perfil</a></li>
       <li><a href="#books">Membros</a></li>
       <li><a href="lojaadd.php">Adicionais a venda</a></li>
@@ -61,7 +61,7 @@
       </ul>
       </li>
       <li><a href="leisrp.php">Leis RP</a></li>
-      <li><a href="#contact">Youtubers do servidor</a></li>
+      <li><a href="youtubers.php">Youtubers do servidor</a></li>
       <li><a href="#followme">Redes sociais</a></li>
       </ul>
   </nav>

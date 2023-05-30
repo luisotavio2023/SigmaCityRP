@@ -17,7 +17,7 @@
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Início</a></li>
+        <li><a href="index.php" class="nav-link px-2 link-secondary">Início</a></li>
         <li><a href="loja.php" class="nav-link px-2 link-dark">Loja do servidor</a></li>
         <li><a href="https://discord.gg/eeqn7gJpTT" class="nav-link px-2 link-dark">Discord</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Regras servidor</a></li>
@@ -41,7 +41,7 @@
        <li><a href="#index.php">Home</a></li>
        <li><a href="#about">Sobre</a></li>
        <li><a href="#events">Eventos</a></li>
-       <li><a href="#team">Fale conosco</a></li>
+       <li><a href="faleconosco.php">Fale conosco</a></li>
        <li class="dropdown">
        <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"> <span class="caret"></span></a>
      <ul class="dropdown-menu animated fadeInLeft" role="menu">
@@ -49,7 +49,7 @@
       <li><a href="#pictures">Avisos</a></li>
       <li><a href="perfil.php">Perfil</a></li>
       <li><a href="#books">Membros</a></li>
-      <li><a href="#lojaadd.php">Adicionais a venda</a></li>
+      <li><a href="lojaadd.php">Adicionais a venda</a></li>
       <li><a href="#awards">Financeiro</a></li>
       </ul>
       </li>
