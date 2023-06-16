@@ -3,15 +3,17 @@
 class Jogadores{
 
     protected $Id;
+    protected $FotoPerfil;
     protected $Nome;
     protected $NickG;
     protected $NickD;
     protected $TagP;
 
 
-    public function __construct($id, $nome, $nickg, $nickd, $tagp)
+    public function __construct($id, $fotoperfil, $nome, $nickg, $nickd, $tagp)
     {
         $this->Id = $id;
+        $this->FotoPerfil = $fotoperfil; 
         $this->Nome = $nome;
         $this->NickG = $nickg;
         $this->NickD = $nickd;
@@ -25,6 +27,14 @@ class Jogadores{
 
     public function set_Id($id){
       $this->Id = $id;
+    }
+
+    public function get_fotoperfil(){
+        return($this->FotoPerfil);
+    }
+
+    public function set_fotoperfil($fotoperfil){
+      $this->FotoPerfil = $fotoperfil;
     }
 
     public function get_Nome(){
