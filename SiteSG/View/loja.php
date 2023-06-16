@@ -17,10 +17,10 @@
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="index.php" class="nav-link px-2 link-secondary">Início</a></li>
+        <li><a href="Principal.php" class="nav-link px-2 link-secondary">Início</a></li>
         <li><a href="loja.php" class="nav-link px-2 link-dark">Loja do servidor</a></li>
         <li><a href="https://discord.gg/eeqn7gJpTT" class="nav-link px-2 link-dark">Discord</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Regras servidor</a></li>
+        <li><a href="regras.php" class="nav-link px-2 link-dark">Regras servidor</a></li>
         <li><a href="staff.php" class="nav-link px-2 link-dark">Equipe Staff</a></li>
       </ul>
 

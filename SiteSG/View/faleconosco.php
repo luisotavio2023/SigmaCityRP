@@ -17,7 +17,7 @@
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="index.php" class="nav-link px-2 link-secondary">Início</a></li>
+        <li><a href="Principal.php" class="nav-link px-2 link-secondary">Início</a></li>
         <li><a href="loja.php" class="nav-link px-2 link-dark">Loja do servidor</a></li>
         <li><a href="https://discord.gg/eeqn7gJpTT" class="nav-link px-2 link-dark">Discord</a></li>
         <li><a href="regras.php" class="nav-link px-2 link-dark">Regras servidor</a></li>
@@ -37,7 +37,7 @@
      <ul class="nav sidebar-nav">
        <div class="sidebar-header">
        <div class="sidebar-brand">
-         <a href="#">Sigma City</a></div></div>
+         <a href="Principal.php">Sigma City</a></div></div>
        <li><a href="forminscricao.php">Trabalhe conosco/Seja staff</a></li>
        <li><a href="sobre.php">Sobre</a></li>
        <li><a href="eventos.php">Eventos</a></li>
@@ -127,7 +127,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2023 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">Sigma City RP</a>
+    Sigma City RP
   </div>
   <!-- Copyright -->
 </footer>
