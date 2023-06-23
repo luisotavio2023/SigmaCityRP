@@ -2,10 +2,10 @@
 
 class BancoDeDados{
 
-    private $host;
-    private $login;
-    private $senha;
-    private $dataBase;
+    private $host = "localhost";
+    private $login = "root";
+    private $senha = "";
+    private $dataBase ="sigmacity";
 
     public function __construct($Host, $Login, $Senha, $DataBase){
         $this->host = $Host;
@@ -35,6 +35,10 @@ class BancoDeDados{
         $consulta = "INSERT INTO Organizacoes (Nome, Tipo, Disponiblidade, Dono, Valor) 
                      VALUES ('$nome','$tipo','$disp','$dono','$valor')";
         mysqli_query($conexao,$consulta);
+    }
+
+    function CadastroJogadores(){
+        
     }
 
 }

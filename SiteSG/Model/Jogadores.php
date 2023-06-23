@@ -1,5 +1,7 @@
 <?php
 
+include 'BancoDeDados.php';
+
 class Jogadores{
 
     protected $Id;
