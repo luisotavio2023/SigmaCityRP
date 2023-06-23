@@ -38,7 +38,7 @@ class BancoDeDados{
     }
 
     function CadastroJogadores(){
-        
+        //implementar função
     }
 
 }

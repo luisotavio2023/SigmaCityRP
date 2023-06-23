@@ -71,6 +71,11 @@ class Jogadores{
         $this->TagP = $tagp;
     }
 
+
+    function VisualizarJogadores(){
+        //Implementar função
+    }
+
 }
 
 
