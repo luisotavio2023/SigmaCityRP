@@ -1,5 +1,6 @@
 <?php
 
+require 'BancoDeDados.php';
 class Organizacoes{
 
     protected $Nome;

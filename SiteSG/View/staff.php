@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="cssindex.css">
+    <link rel="stylesheet" type="text/css" href="../Assets/cssindex.css">
     <style>
         .list-group {
       border: none;
@@ -31,8 +31,8 @@
       </ul>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2" onclick="window.location.href = 'painelloginreg.php';">Logar</button>
-        <button type="button" class="btn btn-primary">Registra-se</button>
+        <button type="button" class="btn btn-outline-primary me-2" onclick="window.location.href = 'painellogin.php';">Logar</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href = 'registro.php';">Registra-se</button>
       </div>
     </header>
     <div id="wrapper">
@@ -87,7 +87,7 @@
     <ul class="list-group">
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="images/FotoLperfil.png" alt="Foto 1" class="rounded-circle me-3" width="50" height="50">
+          <img src="../images/FotoLperfil.png" alt="Foto 1" class="rounded-circle me-3" width="50" height="50">
           <div>
             <h5 class="mb-1">Luis Otávio</h5>
             <p class="mb-0">Luis Otávio#4699</p>
@@ -96,7 +96,7 @@
       </li>
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="images/fotoSperfil.png" alt="Foto 2" class="rounded-circle me-3" width="45" height="45">
+          <img src="../images/fotoSperfil.png" alt="Foto 2" class="rounded-circle me-3" width="45" height="45">
           <div>
             <h5 class="mb-1">Silva</h5>
             <p class="mb-0">Const 4444 = require('Jhin')#6335</p>
@@ -135,7 +135,7 @@
     <ul class="list-group">
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="images/fotoSperfil.png" alt="Ícone de perfil do Silva" class="rounded-circle me-3" width="50" height="50">
+          <img src="../images/fotoSperfil.png" alt="Ícone de perfil do Silva" class="rounded-circle me-3" width="50" height="50">
           <div>
             <h5 class="mb-1">Silva</h5>
             <p class="mb-0">Const 4444 = require('Jhin')#6335</p>
@@ -145,7 +145,7 @@
       </li>
       <li class="list-group-item">
         <div class="d-flex align-items-center">
-          <img src="images/FotoKperfil.png" alt="Ícone de perfil do Kiing" class="rounded-circle me-3" width="50" height="50">
+          <img src="../images/FotoKperfil.png" alt="Ícone de perfil do Kiing" class="rounded-circle me-3" width="50" height="50">
           <div>
             <h5 class="mb-1">Kiing</h5>
             <p class="mb-0">KIING#9754</p>

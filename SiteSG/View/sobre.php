@@ -1,23 +1,18 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Inscrição para a equipe SG</title>
+    <title>Sobre SG</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="../Assets/cssindex.css">
-    <style>
-    /* Definir a altura máxima da página */
-    body {
-      max-height: 100vh;
-      overflow-y: scroll; /* Habilitar a barra de rolagem vertical */
-    }
-  </style>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../Assets/cssindex.css">
   </head>
   <body>
+
+  <div class="container">
   <header class="d-flex flex-wrap d-flex w-100 align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
@@ -36,6 +31,9 @@
         <button type="button" class="btn btn-primary" onclick="window.location.href = 'registro.php';">Registra-se</button>
       </div>
     </header>
+
+
+
     <div id="wrapper">
    <div class="overlay"></div>
     
@@ -44,7 +42,7 @@
      <ul class="nav sidebar-nav">
        <div class="sidebar-header">
        <div class="sidebar-brand">
-         <a href="index.php">Sigma City</a></div></div>
+         <a href="Principal.php">Sigma City</a></div></div>
        <li><a href="forminscricao.php">Trabalhe conosco/Seja staff</a></li>
        <li><a href="sobre.php">Sobre</a></li>
        <li><a href="eventos.php">Eventos</a></li>
@@ -55,14 +53,14 @@
       <div class="dropdown-header">Painel de controle</div>
       <li><a href="avisos.php">Avisos</a></li>
       <li><a href="perfil.php">Perfil</a></li>
-      <li><a href="#books">Membros</a></li>
+      <li><a href="membros.php">Membros</a></li>
       <li><a href="lojaadd.php">Adicionais a venda</a></li>
       <li><a href="#awards">Financeiro</a></li>
       </ul>
       </li>
       <li><a href="leisrp.php">Leis RP</a></li>
       <li><a href="youtubers.php">Youtubers do servidor</a></li>
-      <li><a href="#followme">Redes sociais</a></li>
+      <li><a href="sociaisrede.php">Redes sociais</a></li>
       </ul>
   </nav>
         <!-- /#sidebar-wrapper -->
@@ -84,61 +82,15 @@
 
 
     <div class="container">
-    <h1 class="text-center my-1">Formulário para inscrição</h1>
-  </div>
-
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form>
-          <div class="form-group">
-          <label for="exampleFormControlInput1">Nome</label>
-            <input type="text" class="form-control" placeholder="Nome">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Endereço de email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">O que deseja ser?</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Selecione...</option>
-              <option>Staff</option>
-              <option>Desenvolvimento</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Coloque mais informações aqui</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlFile1">Se quiser, poderá anexar seu currículo aqui</label>
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
-          </div>
-          <button type="button" class="btn btn-primary text-white">Submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-    <footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
-  <!-- Grid container -->
-  <div class="container p-4"></div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">Sigma City RP</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-  </div>
+        <div class="Justify-content-center">
+            <h3 class="font-weight-bold text-align-center">Sobre o servidor</h3>
+        </div>
+        <div class="justify-content-center">
+            <p class="text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsum pariatur corporis asperiores,
+            ab error quas quidem illo repudiandae enim vitae voluptate ducimus itaque sunt odio dolorum veniam aliquid maxime! Lorem ipsum 
+            dolor sit amet consectetur, adipisicing elit. Distinctio, harum fugiat eos adipisci aliquid suscipit perspiciatis id enim optio 
+            possimus. Facilis voluptatem est quis ad animi fugit qui, vitae natus? </p>
+    
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

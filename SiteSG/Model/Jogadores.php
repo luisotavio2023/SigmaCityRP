@@ -1,20 +1,26 @@
 <?php
 
+require_once 'BancoDeDados.php';
+
 class Jogadores{
 
     protected $Id;
     protected $FotoPerfil;
     protected $Nome;
-    protected $NickG;
-    protected $NickD;
-    protected $TagP;
+    protected $Email; 
+    protected $Senha; 
+    protected $NickG; 
+    protected $NickD; 
+    protected $TagP; 
 
 
-    public function __construct($id, $fotoperfil, $nome, $nickg, $nickd, $tagp)
+    public function __construct($id, $fotoperfil, $nome, $email, $senha, $nickg, $nickd, $tagp)
     {
         $this->Id = $id;
         $this->FotoPerfil = $fotoperfil; 
         $this->Nome = $nome;
+        $this->Email = $email;
+        $this->Senha = $senha;
         $this->NickG = $nickg;
         $this->NickD = $nickd;
         $this->TagP = $tagp;
@@ -45,6 +51,22 @@ class Jogadores{
         $this->Nome = $nome;
     }
 
+    public function get_Email(){
+        return($this->Email);
+    }
+
+    public function set_Email($email){
+        $this->Email = $email;
+    }
+
+    public function get_Senha(){
+        return($this->Senha);
+    }
+
+    public function set_Senha($senha){
+        $this->Senha = $senha;
+    }
+
     public function get_NickG(){
         return($this->NickG);
     }
@@ -68,6 +90,27 @@ class Jogadores{
     public function set_TagP($tagp){
         $this->TagP = $tagp;
     }
+
+    public function CadastroJogadores(){
+        if(isset($_POST['inputEmail']) && isset($_POST['inputPassword']) && 
+       isset($_POST['inputId']) && isset($_POST['inputdisc']) && 
+       isset($_POST['inputNickg']) && isset($_POST['inputTagG']) &&
+       isset($_POST['inputNome']) && isset($_POST['InputFoto'])){
+    
+        $email = $_POST['inputEmail'];
+        $senha = $_POST['inputPassword'];
+        $id = $_POST['inputId'];
+        $nickdisc = $_POST['Inputdisc'];
+        $nickg = $_POST['inputNickg'];
+        $tagp = $_POST['inputTaG'];
+        $nome = $_POST['inputNome'];
+        $fotoperfil = $_POST['InputFoto'];
+        
+        inserirJogador($email, $senha, $id, $nickdisc, $nickg, $tagp, $nome, $fotoperfil);
+    
+        header('Location:../view/login.php');
+        die();
+        }
 
 }
 

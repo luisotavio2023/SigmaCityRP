@@ -1,11 +1,12 @@
 <?php
 
+require_once '../Controller/Controller.php';
 class BancoDeDados{
 
-    private $host;
-    private $login;
-    private $senha;
-    private $dataBase;
+    private $host = "localhost";
+    private $login = "root";
+    private $senha = "";
+    private $dataBase = "sigmacity";
 
     public function __construct($Host, $Login, $Senha, $DataBase){
         $this->host = $Host;
@@ -21,11 +22,11 @@ class BancoDeDados{
         return($conexao);
       }
 
-      public function inserirJogadores($Id, $fotodisc, $nome, $nickg, $nickd, $tagp){
+      public function inserirJogadores($Id, $fotodisc, $nome, $email, $senha, $nickg, $nickd, $tagp){
         
         $conexao = $this->conectarBD();
-        $consulta = "INSERT INTO Jogadores (Id, fotodisc, nome, , nickgame, nickdisc, tag) 
-                     VALUES ('$Id','$fotodisc','$nome','$nickg','$nickd','$tagp')";
+        $consulta = "INSERT INTO Jogadores (Id, fotodisc, nome, email, senha, nickgame, nickdisc, tag) 
+                     VALUES ('$Id','$fotodisc','$nome', '$email', '$senha','$nickg','$nickd','$tagp')";
         mysqli_query($conexao,$consulta);
     }
 
@@ -34,6 +35,14 @@ class BancoDeDados{
         $conexao = $this->conectarBD();
         $consulta = "INSERT INTO Organizacoes (Nome, Tipo, Disponiblidade, Dono, Valor) 
                      VALUES ('$nome','$tipo','$disp','$dono','$valor')";
+        mysqli_query($conexao,$consulta);
+    }
+
+    public function InseriorJogador($Id, $FotoPerfil, $nome, $email, $senha, $nickg, $nickd, $tagp){
+        
+        $conexao = $this->conectarBD();
+        $consulta = "INSERT INTO jogadores (Id, fotodisc, nome, email, senha,  nickgame, nickdisc, tag) 
+                     VALUES ('$Id','$FotoPerfil','$nome','$email','$senha', '$nickg', '$nickd', '$tagp')";
         mysqli_query($conexao,$consulta);
     }
 

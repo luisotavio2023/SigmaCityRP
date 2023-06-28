@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
         .bg-image {
-            background-image: url('images/fundolr.jpg');
+            background-image: url('../images/fundolr.jpg');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -32,10 +32,10 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title">Seja bem vindo(a)</h2>
-                        <form method="post" action="verificar.php">
+                        <form method="post" action="../Controller/ControllerLogin.php" id="form1">
                             <div class="form-group">
-                                <label for="username">Usuário</label>
-                                <input type="text" class="form-control" id="username" name="username" required>
+                                <label for="username">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" name="inputEmail" required>
                             </div>
                             <div class="form-group">
                                 <label for="password">Senha</label>
@@ -45,7 +45,7 @@
                         </form>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="esqueci-senha.html">Esqueci minha senha</a> | <a href="registro.html">Registrar-se</a>
+                        <a href="esqueci-senha.html">Esqueci minha senha</a> | <a href="registro.php">Registrar-se</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,6 @@
     </div>
     </div>
   
-
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

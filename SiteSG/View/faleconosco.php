@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="cssindex.css">
+    <link rel="stylesheet" type="text/css" href="../Assets/cssindex.css">
   </head>
   <body>
   <header class="d-flex flex-wrap d-flex w-100 align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
@@ -25,8 +25,8 @@
       </ul>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2" onclick="window.location.href = 'painelloginreg.php';">Logar</button>
-        <button type="button" class="btn btn-primary">Registra-se</button>
+        <button type="button" class="btn btn-outline-primary me-2" onclick="window.location.href = 'painellogin.php';">Logar</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href = 'registro.php';">Registra-se</button>
       </div>
     </header>
     <div id="wrapper">
@@ -143,5 +143,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-  <script src="JavaScript.js"></script>
+  <script src="../Assets/JavaScript.js"></script>
 </html>
