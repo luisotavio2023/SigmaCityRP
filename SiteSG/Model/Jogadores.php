@@ -111,7 +111,7 @@ class Jogadores{
         header('Location:../view/login.php');
         die();
         }
-
+    }
 }
 
 
