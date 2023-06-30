@@ -38,12 +38,4 @@ class BancoDeDados{
         mysqli_query($conexao,$consulta);
     }
 
-    public function InseriorJogador($Id, $FotoPerfil, $nome, $email, $senha, $nickg, $nickd, $tagp){
-        
-        $conexao = $this->conectarBD();
-        $consulta = "INSERT INTO jogadores (Id, fotodisc, nome, email, senha,  nickgame, nickdisc, tag) 
-                     VALUES ('$Id','$FotoPerfil','$nome','$email','$senha', '$nickg', '$nickd', '$tagp')";
-        mysqli_query($conexao,$consulta);
-    }
-
 }
