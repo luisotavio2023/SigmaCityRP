@@ -3,10 +3,10 @@
 require_once '../Controller/Controller.php';
 class BancoDeDados{
 
-    private $host = "localhost";
-    private $login = "root";
-    private $senha = "";
-    private $dataBase = "sigmacity";
+    private $host;
+    private $login;
+    private $senha;
+    private $dataBase;
 
     public function __construct($Host, $Login, $Senha, $DataBase){
         $this->host = $Host;
@@ -36,6 +36,10 @@ class BancoDeDados{
         $consulta = "INSERT INTO Organizacoes (Nome, Tipo, Disponiblidade, Dono, Valor) 
                      VALUES ('$nome','$tipo','$disp','$dono','$valor')";
         mysqli_query($conexao,$consulta);
+    }
+
+    function CadastroJogadores(){
+        //implementar função
     }
 
 }

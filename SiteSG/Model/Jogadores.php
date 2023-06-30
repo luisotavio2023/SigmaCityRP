@@ -1,6 +1,6 @@
 <?php
 
-require_once 'BancoDeDados.php';
+include 'BancoDeDados.php';
 
 class Jogadores{
 
@@ -91,27 +91,6 @@ class Jogadores{
         $this->TagP = $tagp;
     }
 
-    public function CadastroJogadores(){
-        if(isset($_POST['inputEmail']) && isset($_POST['inputPassword']) && 
-       isset($_POST['inputId']) && isset($_POST['inputdisc']) && 
-       isset($_POST['inputNickg']) && isset($_POST['inputTagG']) &&
-       isset($_POST['inputNome']) && isset($_POST['InputFoto'])){
-    
-        $email = $_POST['inputEmail'];
-        $senha = $_POST['inputPassword'];
-        $id = $_POST['inputId'];
-        $nickdisc = $_POST['Inputdisc'];
-        $nickg = $_POST['inputNickg'];
-        $tagp = $_POST['inputTaG'];
-        $nome = $_POST['inputNome'];
-        $fotoperfil = $_POST['InputFoto'];
-        
-        inserirJogador($email, $senha, $id, $nickdisc, $nickg, $tagp, $nome, $fotoperfil);
-    
-        header('Location:../view/login.php');
-        die();
-        }
-    }
 }
 
 

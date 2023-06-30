@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 class Staff{
 
     protected $nome;
@@ -51,4 +52,14 @@ class Staff{
  
 }
 
+=======
+Class staff{
+
+
+    
+}
+
+
+
+>>>>>>> 7d3f11f3c732eb25ebf2329b411aaff63b839fb2
 ?>
