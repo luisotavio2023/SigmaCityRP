@@ -3,10 +3,10 @@
 require_once '../Controller/Controller.php';
 class BancoDeDados{
 
-    private $host;
-    private $login;
-    private $senha;
-    private $dataBase;
+    private $host = "localhost";
+    private $login = "root";
+    private $senha = "";
+    private $dataBase = "sigmacity";
 
     public function __construct($Host, $Login, $Senha, $DataBase){
         $this->host = $Host;
